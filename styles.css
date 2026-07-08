@@ -243,3 +243,46 @@ nav ul{
 }
 
 }
+
+/* Transformation Section */
+
+.transformation{
+    text-align:center;
+    background:#111;
+}
+
+.subtitle{
+    color:#bbbbbb;
+    margin-bottom:50px;
+    font-size:20px;
+}
+
+.transform-gallery{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.photo-card{
+    background:#1b1b1b;
+    padding:20px;
+    border-radius:20px;
+    max-width:350px;
+    transition:.3s;
+}
+
+.photo-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 40px rgba(255,79,163,.25);
+}
+
+.photo-card img{
+    width:100%;
+    border-radius:15px;
+}
+
+.photo-card h3{
+    margin-top:20px;
+    color:#FF4FA3;
+}
