@@ -417,3 +417,14 @@ nav ul{
 .testimonial-card span{
     color:#999;
 }
+footer{
+    background:#0d0d0d;
+    padding:40px 8%;
+    text-align:center;
+    color:#888;
+    border-top:1px solid #222;
+}
+
+footer p{
+    margin:8px 0;
+}
