@@ -479,10 +479,13 @@ footer p{
     color:#cfcfcf;
     margin-bottom:50px;
 }
-
 .client-transformations img{
     width:100%;
-    max-width:700px;
+    max-width:900px;
+    height:auto;
+    display:block;
+    margin:0 auto;
     border-radius:20px;
-    box-shadow:0 15px 40px rgba(255,79,163,.25);
+    object-fit:contain;
+    box-shadow:0 20px 50px rgba(255,79,163,.25);
 }
